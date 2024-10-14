@@ -1,0 +1,224 @@
+
+body{
+    background-color: rgb(183, 106, 118);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline; 
+    
+}
+
+h2{
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: black;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Home_Button{
+    position: fixed;
+    left: 3%;
+    top: 30%; 
+    transform: translateY(-50%); 
+}
+
+.Help{
+    position: fixed;
+    left: 3%;
+    bottom: 2%;
+    
+}
+
+button{
+    background-color: rgb(187, 161, 196);
+    height: 50px;
+    width: 100px;
+}
+
+#PopMusicImage{
+    position: fixed;
+    top: 5%;
+    left: 3%;
+    width: 125px;
+    height: 150px;
+}
+
+
+#searchBox {
+    position: fixed;
+    left: 40%;
+    
+    margin-top: 30px;
+    border: 2px dashed #090708;
+    padding: 10px;
+    border-radius: 10px;
+    width: 260px;
+    height: 30px;
+   
+}
+
+#searchBox:hover {
+    transform: scale(1.05);
+    background-color: rgb(216, 210, 211);
+    transition: transform 0.2s ease;
+}
+
+#submit-search{
+    position: fixed;
+    left: 60%;
+    margin-top: 30px;
+}
+
+.Scrollable-Playlist{
+    position: fixed;
+    text-align: left;
+    float:right;
+    right: 100px;
+    margin-top: 20%;
+   
+    background-color: peachpuff;
+    width: 140px;
+    height: 180px;
+    overflow: scroll;
+
+    
+     
+}
+
+.Create-Playlist{
+    position: fixed;
+    left: 85%;
+    margin-top: 35%;
+}
+
+.Announcements{
+    position: fixed;
+    display: flex;
+    align-items: flex-start;
+    height: 155px;
+    width: 255px;
+    left: 2%;
+    margin-top: 15%;
+    flex-flow: column wrap;
+    background-color: pink;
+    border-radius: 5%;
+}
+
+.announcement-image{
+    height: 40px;
+    width: 40px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    justify-content: center;
+    height: 335px;
+    width: 300px;
+    margin-left: 1.5%;
+    margin-top: 28%;
+    text-align: center;
+    border-radius: 5%;
+    
+}
+
+.college-promotions{
+    width:75px;
+    height:75px;
+}
+
+.holiday-promotions{
+    width:75px;
+    height:75px;
+}
+
+.calendar {
+    position: fixed;
+    width: 300px;
+    height:400px;
+    top: 40%;
+    left:40%;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 5px 50px rgba(#000, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+.calendar__date {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+.calendar__day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-weight: 600;
+    color: #262626;
+    
+    &:nth-child(7) {
+      color: #ff685d;
+    }
+}
+
+
+.calendar__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    color: #262626;
+  
+    &:nth-child(7n) {
+      color: #ff685d;
+      font-weight: 700;
+    }
+    
+    &--current,
+    &:hover {
+      background-color: #009688;
+      color: #fff !important;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+
+  .instructions{
+    text-align:center;
+    margin-top: -5%;
+    margin-left:5%;
+  }
+
+
+
+
+
+
+
